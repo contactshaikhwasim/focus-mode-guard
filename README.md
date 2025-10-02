@@ -4,8 +4,6 @@
 
 This Visual Studio Code extension enforces a focus mode where users can only open pre-selected files or folders. Attempting to open restricted files or folders requires user confirmation by typing the filename or folder name. If another valid file or folder is typed, it is added to the focus list automatically.
 
-The extension follows SRE principles (reliability, observability, resilience, failure isolation) and software design patterns (Singleton, Observer, Command, Strategy).
-
 ## Features
 
 - Enable/Disable Focus Mode
@@ -23,9 +21,9 @@ The extension follows SRE principles (reliability, observability, resilience, fa
 
 ## Usage
 
-- **Enable Focus Mode**: Run command `Focus Mode: Enable` (Ctrl+Shift+P > Focus Mode: Enable) and select files/folders.
-- **Disable Focus Mode**: Run `Focus Mode: Disable`.
-- **Check Status**: Run `Focus Mode: Status` to see the current focus list.
+- **Enable Focus Mode**: Run command `Focus Mode Guard: Enable` (Ctrl+Shift+P > Focus Mode Guard: Enable) and select files/folders.
+- **Disable Focus Mode**: Run `Focus Mode Guard: Disable`.
+- **Check Status**: Run `Focus Mode Guard: Status` to see the current focus list.
 
 ## Packaging the Extension
 
