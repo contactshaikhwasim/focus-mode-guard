@@ -1,6 +1,7 @@
 <p align="center">
   <img src="https://github.com/contactshaikhwasim/focus-mode-guard/blob/main/assets/icon.jpg?raw=true" alt="Py Env Studio Logo" width="150">
 </p>
+
 # Focus Mode Guard – Multi-Select with Dynamic Override
 
 ![Installs](https://img.shields.io/visual-studio-marketplace/i/WasimShaikh.focus-mode-guard)
