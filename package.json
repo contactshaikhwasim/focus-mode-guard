@@ -1,0 +1,57 @@
+{
+  "name": "focus-mode-guard",
+  "displayName": "Focus Mode Guard",
+  "description": "Enforces focus mode with restrictions on opening files/folders, allowing dynamic overrides.",
+  "version": "0.0.1",
+  "icon": "assets/icon.jpg",
+  "engines": {
+    "vscode": "^1.104.0"
+  },
+  "publisher": "wasimshaikh",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/contactshaikhwasim/focus-mode-guard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/contactshaikhwasim/focus-mode-guard/issues"
+  },
+  "homepage": "https://github.com/contactshaikhwasim/focus-mode-guard#readme",
+  "license": "MIT",
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:focusMode.enable",
+    "onCommand:focusMode.disable",
+    "onCommand:focusMode.status",
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "focusMode.enable",
+        "title": "Enable Focus Mode Guard"
+      },
+      {
+        "command": "focusMode.disable",
+        "title": "Disable Focus Mode Guard"
+      },
+      {
+        "command": "focusMode.status",
+        "title": "Focus Mode Guard Status"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/node": "20.x",
+    "@types/vscode": "^1.104.0",
+    "@vscode/vsce": "^3.6.2",
+    "typescript": "^5.9.3"
+  }
+}
