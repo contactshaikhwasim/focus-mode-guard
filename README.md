@@ -9,7 +9,7 @@
 ![Rating](https://img.shields.io/visual-studio-marketplace/r/WasimShaikh.focus-mode-guard)
 ![Made with TypeScript](https://img.shields.io/badge/Made%20with-TypeScript-3178C6?logo=typescript&logoColor=white)
 
- - [Download from VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-github-actions)
+ - [Download from VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=WasimShaikh.focus-mode-guard)
 
 ## Description
 
